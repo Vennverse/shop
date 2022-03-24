@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import "./Home.css";
 import { Carousel, Card } from 'antd';
-import Carousel1 from "../images/carousel1.png";
-import Carousel2 from "../images/carousel2.png";
-import Carousel3 from "../images/carousel3.png";
+
 import Comics from "../images/comics.png";
 import ArtemisFowl from "../images/ArtemisFowl.png";
 import MobyDick from "../images/MobyDick.png";
@@ -37,7 +35,7 @@ return(
         </Link>
       </Card>
       <Card className="card">
-        <h1></h1>
+        <h1>iphone</h1>
         <img src={ArtemisFowl} alt="Artemis Fowl" className="card-content"></img>
         <br />
         <Link to="/" className="link">
